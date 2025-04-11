@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Funcionários</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro de Funcionários</h1>
+
+  <form id="formFuncionario">
+    <label>Nome:</label>
+    <input type="text" id="nome" required><br>
+
+    <label>Idade:</label>
+    <input type="number" id="idade" required><br>
+
+    <label>Tipo de Funcionário:</label>
+    <select id="tipo">
+      <option value="dev">Desenvolvedor</option>
+      <option value="designer">Designer</option>
+    </select><br>
+
+    <div id="camposExtras"></div>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Funcionários Cadastrados</h2>
+  <ul id="listaFuncionarios"></ul>
+
+  <script src="dist/main.js"></script>
+</body>
+</html>
