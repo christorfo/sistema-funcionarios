@@ -19,7 +19,7 @@ Sistema-Funcionarios/
 └── README.md            # Documentação
 ```
 
-## 🚀 Como usar
+## Como usar
 1. Instale o TypeScript se necessário:
    ```bash
    npm install -g typescript
